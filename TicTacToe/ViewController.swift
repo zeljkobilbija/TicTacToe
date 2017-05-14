@@ -33,13 +33,13 @@ class ViewController: UIViewController {
                 if gameState[combination[0]] == 1
                 {
                     // Iks je pobednik
-                    label.text = "IKS je pobedio"
+                    label.text = "X je pobedio"
                     igraJeGotova = 1
                 }
                 else
                 {
                     // Oks je popbednika
-                    label.text = "OKS je pobedio"
+                    label.text = "O je pobedio"
                     igraJeGotova = 1
                 }
                 playAgain.isHidden =  false
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         
         if gameIsActive == false && igraJeGotova == 0
         {
-            label.text = "Nereseno"
+            label.text = "Nerešeno"
             label.isHidden = false
             playAgain.isHidden = false
         }
