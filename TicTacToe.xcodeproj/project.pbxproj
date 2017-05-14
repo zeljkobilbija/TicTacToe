@@ -12,6 +12,9 @@
 		022C26921EC8767400C9BA93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022C26901EC8767400C9BA93 /* Main.storyboard */; };
 		022C26941EC8767400C9BA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022C26931EC8767400C9BA93 /* Assets.xcassets */; };
 		022C26971EC8767400C9BA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022C26951EC8767400C9BA93 /* LaunchScreen.storyboard */; };
+		022C26A11EC8768800C9BA93 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 022C269E1EC8768800C9BA93 /* x.png */; };
+		022C26A21EC8768800C9BA93 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 022C269F1EC8768800C9BA93 /* board.png */; };
+		022C26A31EC8768800C9BA93 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = 022C26A01EC8768800C9BA93 /* o.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		022C26931EC8767400C9BA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		022C26961EC8767400C9BA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		022C26981EC8767400C9BA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022C269E1EC8768800C9BA93 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		022C269F1EC8768800C9BA93 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		022C26A01EC8768800C9BA93 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				022C26931EC8767400C9BA93 /* Assets.xcassets */,
 				022C26951EC8767400C9BA93 /* LaunchScreen.storyboard */,
 				022C26981EC8767400C9BA93 /* Info.plist */,
+				022C269E1EC8768800C9BA93 /* x.png */,
+				022C269F1EC8768800C9BA93 /* board.png */,
+				022C26A01EC8768800C9BA93 /* o.png */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -124,8 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022C26A11EC8768800C9BA93 /* x.png in Resources */,
 				022C26971EC8767400C9BA93 /* LaunchScreen.storyboard in Resources */,
 				022C26941EC8767400C9BA93 /* Assets.xcassets in Resources */,
+				022C26A31EC8768800C9BA93 /* o.png in Resources */,
+				022C26A21EC8768800C9BA93 /* board.png in Resources */,
 				022C26921EC8767400C9BA93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,7 +217,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +260,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -302,6 +312,7 @@
 				022C269D1EC8767400C9BA93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
