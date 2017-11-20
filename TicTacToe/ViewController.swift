@@ -1,13 +1,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    var activePlayer = 1 // iks
+        //MARK:-
+        //MARK:-
+        //MARK:PROPERTIES
+            var activePlayer = 1 // iks
     var gameState = [0,0,0,0,0,0,0,0,0]
     let winningCombination = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
     var gameIsActive = true
     var igraJeGotova = 0
-    
+        //MARK:-
+        //MARK:-
     @IBAction func klik(_ sender: UIButton)
     {
         if (gameState[sender.tag - 1] == 0 && gameIsActive == true && igraJeGotova == 0)
@@ -63,13 +66,15 @@ class ViewController: UIViewController {
             playAgain.isHidden = false
         }
     }
-    
-    /**************
-**************************
- **********************/
-    
+    //MARK:-
+     //MARK: IBOUTLETS
+        //MARK:-
+
     @IBOutlet var label: UILabel!
     @IBOutlet var playAgain: UIButton!
+    
+        //MARK:-
+        //MARK:-
     
     @IBAction func playAgain(_ sender: UIButton)
     {
